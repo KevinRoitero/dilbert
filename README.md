@@ -19,3 +19,21 @@ model = AutoModelForMaskedLM.from_pretrained("beatrice-portelli/DiLBERT")
 - `02_pretraine_model.py` pretraining script (see `constants.py` for architecture and pretraining parameters)
 - `03_finetune.py` finetuning script (classification task)
 - `04_test.py` test script (classification task)
+
+
+# Citing DilBERT
+
+If you have found DilBERT helpful in your work, you can cite the related paper as
+
+```
+@article{roitero2021dilbert,
+  title={{DilBERT}: Cheap Embeddings for Disease Related Medical NLP},
+  author={Roitero, Kevin and Portelli, Beatrice and Popescu, Mihai Horia and Della Mea, Vincenzo},
+  journal={IEEE Access},
+  volume={},
+  pages={},
+  year={2021},
+  publisher={IEEE},
+  note = {In Press}
+}
+```
